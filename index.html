@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- Lets do the tile first + the latest version of HTML -->
+
+<!-- loading the preferred fonts -->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<title>My dog's life</title>
+<!-- The main content -->
+<!-- CSS -->
+<style>
+     :root {
+    --background-color: rgb(62, 236, 227);
+  }
+
+  body {
+    background: var(--background-color, rgb(62,236,227));
+  }
+    .red-text{
+        color: red;
+    }
+    
+    p{
+        font-size: medium;
+    }
+    .golden-border{
+        border-color: gold;
+        border-radius: 50%;
+        border-width: 15px;
+        border-style: solid;
+    }
+    .silver-background{
+        background-color: rgb(0, 255, 64);
+    }
+
+    #colored-bg {
+        background-color: blueviolet;
+
+    }
+h2 {
+    font-family: Lobster, monospace;
+}
+
+.colored2bg {
+    background-color: yellow;
+}
+
+
+</style>
+<main>
+<div class="colored2bg">
+<h2 class="red-text" >My website is all about my dog. <br>
+This is my vlog and and I warmly
+welcome you to my vlog</h2>
+</div>
+
+<img class="golden-border" src="dog.jpg" alt="A dog" width="150" height="150">
+
+<!-- First lets introduce -->
+<ul>
+<li>
+    His name is <em>Monty</em>
+</li>
+<br>
+
+<li>His color is brown and white</li>  
+<br>
+
+<li>
+    He is loved by all
+</li>
+<br>
+
+<li> He especially loves old people</li>
+<br>
+
+<li> He is a cheerful, friendly and loving dog, we consider him as our best friend</li>
+<br>
+<!-- use a break line tag to look more neat website -->
+</ul>
+<div class="silver-background">
+<p> Things my dog hates the most</p>
+<ol>
+    <li> He does not like to sit in the car </li>
+    <li>He does not like to eat bread</li>
+    <li>He does not like to study</li>
+    </ol>
+</div>
+    <form id="colored-bg" >
+        <input type="text" required placeholder="About your dog">
+        <button type="Submit">Submit</button>
+
+        <!-- Interact with the users -->
+        <p>
+            Does your dog stays:
+        </p>
+        <label for="Outdoor">
+            <input id="Outdoor" type="radio" name="Indoor-outdoor" checked>Outdoor
+        </label>
+<br>
+    <!-- Another input -->
+    <label for="Indoor">
+        <input id="Indoor" type="radio" name="Indoor-outdoor" checked>Indoor
+    </label>
+    <p>Is your dog:</p>
+    <label for ="loving"><input id="loving" type="checkbox" name="personality">Loving</label>
+    <label for ="friendly"><input id="friendly" type="checkbox" name="personality">friendly</label>
+    <label for ="Fierce"><input id="Fierce" type="checkbox" name="personality">Fierce</label>
+    </form>
+</main>
