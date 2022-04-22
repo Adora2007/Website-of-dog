@@ -1,0 +1,3 @@
+# Website-of-dog
+This is a website created my me about a dog's blog. 
+This is a basic website, there is an image, a list describing the dog's life.....
